@@ -1,0 +1,93 @@
+body{
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+header{
+    background: black;
+    background-image: url('img/quiche.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 20px;
+    height: 400px;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+header .logo a {
+    background-image: url("img/logo1.png");
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -30px;
+    text-indent: -99999px;
+}
+
+nav ul{
+    padding: 0;
+    margin: auto;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+/* FEATURES */
+
+.features{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: black 0 0 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/* FOOTER */
+
+footer{
+    background:black;
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+
+    padding: 20px 20px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+
+    display:table-row ;
+    /* height:40px; */
+    border-top: 3px solid #f4524046;
+}
