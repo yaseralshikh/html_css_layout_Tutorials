@@ -26,6 +26,10 @@ header a{
     margin: 40px;
 }
 
+header .mobile {
+    display: none;
+}
+
 header .logo a {
     background-image: url("img/logo1.png");
     display: inline-block;
@@ -48,6 +52,21 @@ nav li{
     display: inline;
     margin-right: 20px;
 }
+
+/* Header Responsive Rules */
+@media screen and (max-width: 1097px) {
+    header{
+        height: 200px;
+    }
+    header .mobile {
+        display: contents;
+    }
+
+    header .desktop {
+        display: none;
+    }
+}
+/* End Responsive Rules */
 
 /* FEATURES */
 
@@ -73,6 +92,16 @@ nav li{
     width: 200px;
     height: 200px;
 }
+
+/* Features Responsive Rules */
+@media screen and (max-width: 650px) {
+    .features{
+        display: block;
+    }
+
+}
+
+/* End Responsive Rules */
 
 /* FOOTER */
 
